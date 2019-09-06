@@ -53,6 +53,10 @@ header {
     color: #69409e;
 }
 
+.meet-title {
+    color: #69409e;
+}
+
 #footer {
     background-image: linear-gradient(to bottom right, #241822, #36c2f3);
 }
