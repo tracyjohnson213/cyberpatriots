@@ -134,7 +134,6 @@ header {
 }
 
 /*-------------------Footer*/
-/*-----------Footer Using https://bootsnipp.com/snippets/rlXdE*/
 #footer h5 {
     padding-left: 10px;
     padding-bottom: 6px;
@@ -184,7 +183,6 @@ header {
 }
 
 /*-------------------Media Queries*/
-/*--------medium devices---------*/
 @media (min-width: 768px) {
     .footer-links {
         padding-left: 10%;
@@ -198,6 +196,3 @@ header {
         vertical-align: middle;
     }
 }
-
-/*--------large devices---------*/
-
