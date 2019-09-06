@@ -1,6 +1,9 @@
-# Your Project's Name
 
-One or two paragraphs providing an overview of your project.
+# Cabrillo High School CyberPatriots
+
+Cabrillo High School CyberPatriots are a part of the National Youth Cyber Education Program created by the Air Force Association to inspire students toward careers in cybersecurity or other science, technology, engineering, and math disciplines critical to our nation's future.
+
+Cabrillo High School works to provide it's students with multiple opportunities to explore their interests.  Cybersecurity is a fast growing and high in demand career track.  All students can be enriched by exposure to it's concepts and applications.'
 
 Essentially, this part is your sales pitch.
  
@@ -8,10 +11,28 @@ Essentially, this part is your sales pitch.
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### User Stories
+- As a site owner, I want to solicit requests for information to join the CyberPatriot Club in order to increase membership.
+- As a site owner, I want to solicit requests for information to sponsor the CyberPatriot Club in order to gain funds or services.
+- As a site owner, I want to solicit requests for information to volunteer to support the CyberPatriot Club in order to gain SMEs to aid the group.
+- As a site owner, I want to provide information of what the CyberPatriot Club is in order to foster interest.
+- As a site owner, I want to provide information of events to be attended by the CyberPatriot Club members in order to share data.
+- As a site owner, I want to provide information of the basics of cybersecurity in order to inform the user.
+- As a site owner, I want to provide a video on the basics of cybersecurity in order to ease sharing with the user.
+- As a site owner, I want to introduce the students of the CyberPatriot Club in order to share pride and foster internship relationships.
+- As a site owner, I want to introduce the advisors of the CyberPatriot Club in order to share pride and foster internship relationships.
+- As a site owner, I want to share news article links about other CyberPatriot Clubs in order to provide national relevance of organization.
+- As a site user, I want to request information to join the CyberPatriot Club in order to gain contact with club.
+- As a site user, I want to request information to sponser the CyberPatriot Club in order to gain contact with club.
+- As a site user, I want to request information to volunteer to support the CyberPatriot Club in order to gain contact with club.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### Acceptance Criteria
+
+### Documetation
+- Wireframe ~ 
+- Mockup ~ <a href="../documentation/cyberpatriots_balsamiq.bmpr">cyberpatriots_balsamiq.bmpr</a>
+- Mockup ~ <a href="../documentation/cyberpatriots_balsamiq.pdf">cyberpatriots_balsamiq.pdf</a>
+- Color Scheme ~ <a href="../documentation/colorsheme.html">colorscheme.html</a>
 
 ## Features
 
@@ -42,7 +63,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - <a href="http://colormind.io/bootstrap/#">Colormind Bootstrap UI Themes</a> ~ Generate color schemes.
 - Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
 - <a href="https://docs.seleniumhq.org/">SeleniumHQ</a> ~ Browser automation tool.
-
+- <a href="https://stackedit.io/">StackEdit</a> ~ In browser Markdown editor.
 
 ## Testing
 
