@@ -33,6 +33,22 @@ header {
     color: #241822;
 }
 
+.learn-title {
+    color: #69409e;
+}
+
+.learn-text {
+    color: #241822;
+}
+
+.event-title {
+    color: #69409e;
+}
+
+.event-text {
+    color: #241822;
+}
+
 #footer {
     background-image: linear-gradient(to bottom right, #241822, #36c2f3);
 }
