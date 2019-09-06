@@ -163,6 +163,12 @@ header {
     background-size: cover;
 }
 
+/*-------------------Meet Cards*/
+.card > img {
+    height: 10.06rem;
+    width: 10.06rem;
+}
+
 /*-------------------Footer*/
 /*-----------Footer Using https://bootsnipp.com/snippets/rlXdE*/
 #footer h5 {
