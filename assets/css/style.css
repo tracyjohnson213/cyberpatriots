@@ -222,6 +222,13 @@ header {
 /*-------------------Media Queries*/
 /*--------medium devices---------*/
 @media (min-width: 768px) {
+    .logo img {
+        width: 15%;
+    }
+
+    .sticky-top {
+        top: 10%;
+    }
     .footer-links {
         padding-left: 10%;
     }
@@ -236,4 +243,12 @@ header {
 }
 
 /*--------large devices---------*/
+@media (min-width: 992px) {
+    .logo img {
+        width: 15%;
+    }
 
+    .sticky-top {
+        top: 10%;
+    }
+}
