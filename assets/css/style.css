@@ -63,6 +63,10 @@ header {
     color: #69409e;
 }
 
+.news-link {
+    color: #ed9b40;
+}
+
 #footer {
     background-image: linear-gradient(to bottom right, #241822, #36c2f3);
 }
