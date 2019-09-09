@@ -121,7 +121,12 @@ header {
 }
 
 .badge-event {
-    color: #241822;
+    color: #69409e;
+    background-color: #d4edda;
+}
+
+.alert-event {
+    color: #69409e;
     background-color: #d4edda;
 }
 
@@ -147,6 +152,10 @@ header {
     color: #eeeeee;
 }
 
+table {
+    background-color: #ed9b40;
+}
+
 i {
     color: #ed9b40;
 }
@@ -159,6 +168,7 @@ i {
 .about-title {
     font-size: 1.5rem;
 }
+
 
 /*-------------------Background Images*/
 header {
@@ -185,7 +195,11 @@ header {
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
-}*/
+}
+
+.meet{
+}
+*/
 
 /*-------------------Header*/
 header {
