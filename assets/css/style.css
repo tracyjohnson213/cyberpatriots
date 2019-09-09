@@ -108,7 +108,12 @@ header {
 .flip-card-back {
     background-color: #69409e;
     color: #fafafa;
+    font-style: italic;
     transform: rotateY(180deg);
+}
+
+.flip-card-back > .card-title {
+    color: #ed9b40;
 }
 
 .news-link {
@@ -228,6 +233,7 @@ header {
 
 .card-img {
     width: 100%;
+    border-radius: 15px;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -259,6 +265,7 @@ header {
     position: absolute;
     width: 100%;
     height: 100%;
+    border-radius: 25px;
     backface-visibility: hidden;
 }
 .flip-card-front {
