@@ -64,6 +64,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
 - <a href="https://docs.seleniumhq.org/">SeleniumHQ</a> ~ Browser automation tool.
 - <a href="https://stackedit.io/">StackEdit</a> ~ In browser Markdown editor.
+- <a href="https://www.favicon.cc/?">Favicon.cc</a> ~ Favicon generator.
 
 ## Testing
 
@@ -134,5 +135,13 @@ my mentor Sindhu Kolli for project guidence and support.
 
 ### Disclaimer
 
-This project was created for educational purposes to meet the requirements of the User Centric Developement Milestone Project 1. 
+This project was created for educational purposes to meet the requirements of the User Centric Developement Milestone Project 1 to demonstrate competency in basic knowledge of:
+- HTML/HTML5
+- CSS/CSS3
+- Responsive Web Design
+- User experience design
+- Bootstrap 4
+- Git/GitHub
+- Wireframing
+- README file
 Copyright © Tracy Johnson & Code Institute 2019
