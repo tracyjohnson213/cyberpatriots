@@ -87,12 +87,32 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Website was created in Microsoft Visual Studio 2019.  GitBash and GitHub Desktop were used for version control from beginning to deployment.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+Cloning & Details:
+
+In order to clone the website:
+
+Select the Repository from the Github Dashboard.
+
+Click on the "Clone or download" green button located above and to the right of the File Structure table.
+
+Click on the "clipboard icon" to the right of the Git URL to copy the web URL of the Clone.
+
+Open your preferred Integrated Development Environment (IDE) and navigate to the terminal window.
+
+Change the directory to where you want to clone the repository too. 
+
+Paste the Git URL copied from above and click "Ok". 
+
+In order to deploy the website to Github pages, I:
+
+Selected the Repository from the Github Dashboard.
+Navigated to "Settings" and to the "Github Pages" Section.
+From the "Source" section, clicked on the dropdown and selected "Master Branch" from the associated List.
+Once "Master Branch" was selected, the page auto-refreshed, with a ribbon display detailing "Github Pages source saved" indicating the success of the deployment.
+The link to the website was found under the "Github Pages" section, with a ribbon notification stating:
+"Your site is published at <a href="https://tracyjohnson213.github.io/cyberPatriots/"
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
@@ -108,3 +128,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from X
+
+To Code Institute for offering the learning opportunity as a Full Stack Development Student.  Thanks to my User Centric Frontend Development Lead, Anthony O' Brien, 
+my mentor Sindhu Kolli for project guidence and support.
+
+### Disclaimer
+
+This project was created for educational purposes to meet the requirements of the User Centric Developement Milestone Project 1. 
+Copyright © Tracy Johnson & Code Institute 2019
