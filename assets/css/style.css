@@ -120,6 +120,11 @@ header {
     color: #ed9b40;
 }
 
+.badge-event {
+    color: #241822;
+    background-color: #d4edda;
+}
+
 #footer {
     background-image: linear-gradient(to bottom right, #241822, #36c2f3);
 }
