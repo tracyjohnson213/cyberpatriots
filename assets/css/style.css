@@ -39,6 +39,27 @@ header {
     color: #241822;
 }
 
+.btn-outline-warning {
+    color: #ed9b40;
+    border-color: #ed9b40;
+}
+
+.btn-outline-warning:hover {
+    color: #241822;
+    border-color: #ed9b40;
+    background-color: #ed9b40;
+}
+
+.btn-submit-contact {
+    color: #fafafa;
+    border-color: #ed9b40;
+    background-color: #ed9b40;
+}
+
+.form-group.btn {
+    color: #241822;
+}
+
 .learn-title {
     color: #69409e;
 }
