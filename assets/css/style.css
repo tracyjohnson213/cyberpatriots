@@ -167,17 +167,13 @@ body {
     font-size: 2rem;
 }
 
-/*-------------------Background Images*/
-header {
-    z-index: 1;
-}
-
 /*-------------------Header*/
 header {
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
+    z-index: 1;
 }
 
 .logo img {
@@ -293,6 +289,27 @@ header {
 /*-------------------Modal*/
 .modal-title {
     text-align: center;
+}
+
+/*-------------------Background Images*/
+.modal-content {
+    position: relative;
+    z-index: 1;
+    background: #fafafa;
+}
+
+.modal-content:after {
+    content: "";
+    background: url("../images/brain-circuit-wallpaper.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    opacity: 0.2;
+    z-index: -1;
 }
 
 /*-------------------Footer*/
