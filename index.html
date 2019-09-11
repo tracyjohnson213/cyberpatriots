@@ -309,44 +309,48 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Please enter your full name." required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Please enter your email. We'll never share it!" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Please share your phone number (optional)." pattern="[0-9] {3}-[0-9]{3}-[0-9]{4}">
-                        </div>
-                        <div class="form-group">
-                            <p>Preferred contact method:</p>
-
-                            <div>
-                                <input type="checkbox" id="email" name="email"
-                                       checked>
-                                <label for="email">Email</label>
+                    <div class="modal-body">
+                        <form>
+                            <h5 class="modal-title">Contact Cabrillo CyberPatriots</h5>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" size="50" placeholder="Please enter your full name." required>
                             </div>
-
-                            <div>
-                                <input type="checkbox" id="phone" name="phone">
-                                <label for="phone">Phone</label>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" size="50" placeholder="Please enter your email. We'll never share it!" required>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="reason">Select reason for contact:</label>
-                            <select class="form-control" id="reason">
-                                <option>I would like to know how to become a CyberPatriot.</option>
-                                <option>I would like to know how to support CyberPatriots.</option>
-                                <option>I would like to learn more about cybersecurity.</option>
-                                <option>I would like to share my skills with CyberPatriots.</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="textarea" rows="3" placeholder="Please share your comments!"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-submit-contact">Submit</button>
-                    </form>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="phone" size="50" placeholder="Please share your phone number (optional)." pattern="[0-9] {3}-[0-9]{3}-[0-9]{4}">
+                            </div>
+                            <div class="form-group">
+                                <p>Preferred contact method:</p>
+
+                                <div>
+                                    <input type="checkbox" id="email" name="email"
+                                           checked>
+                                    <label for="email">Email</label>
+                                </div>
+
+                                <div>
+                                    <input type="checkbox" id="phone" name="phone">
+                                    <label for="phone">Phone</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="reason">Select reason for contact:</label>
+                                <select class="form-control" id="reason">
+                                    <option>Membership information</option>
+                                    <option>Acquire knowledge</option>
+                                    <option>Share knowledge</option>
+                                    <option>Community support</option>
+                                    <option>Compliments and complaints</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="textarea" rows="3" placeholder="Please share your comments!"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-submit-contact">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

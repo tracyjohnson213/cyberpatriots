@@ -36,7 +36,7 @@ header {
     color: #69409e;
 }
 
-    .btn-outline-warning {
+.btn-outline-warning {
     color: #ed9b40;
     border-color: #ed9b40;
 }
@@ -89,6 +89,10 @@ header {
 
 .meet-card-label {
     color: #241822;
+}
+
+.modal-title {
+    color: #69409e;
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -280,10 +284,16 @@ header {
     padding: .5px;
     border-radius: 4px;
 }
-    /*On Hover Color Change*/
-    #btn-top:hover {
-        background-color: #7dbbf1;
-    }
+
+/*On Hover Color Change*/
+#btn-top:hover {
+    background-color: #7dbbf1;
+}
+
+/*-------------------Modal*/
+.modal-title {
+    text-align: center;
+}
 
 /*-------------------Footer*/
 /*-----------Footer Using https://bootsnipp.com/snippets/rlXdE*/
