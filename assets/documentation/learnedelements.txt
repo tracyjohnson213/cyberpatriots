@@ -1,0 +1,40 @@
+# HTML
+[] headings
+[] paragraph
+[] doctype
+[] image
+[] button
+[] link
+[] table
+[] ordered list
+[] unordered list
+[] media
+
+# CSS
+[] media query
+[] borders
+[] margins
+[] height
+[] width
+[] min/max height
+[] min/max width
+[] google fonts
+[] icons
+[] display
+[] position
+[] overflow
+[] float
+[] inline-block
+[] pseudo-class
+[] pseudo-element
+[] opacity
+[] navbar
+[] forms
+[] gradients
+[] fontawesome
+[] transform
+[] transition
+
+# Bootstrap4
+[] grid
+[] override styles

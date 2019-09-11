@@ -30,8 +30,8 @@ Use this section to provide insight into your UX process, focusing on who this w
 
 ### Documetation
 - Wireframe ~ 
-- Mockup ~ <a href="../documentation/cyberpatriots_balsamiq.bmpr">cyberpatriots_balsamiq.bmpr</a>
-- Mockup ~ <a href="../documentation/cyberpatriots_balsamiq.pdf">cyberpatriots_balsamiq.pdf</a>
+- Mockup ~ <a href="../documentation/cyberpatriots-balsamiq.bmpr">cyberpatriots-balsamiq.bmpr</a>
+- Mockup ~ <a href="../documentation/cyberpatriots-balsamiq.pdf">cyberpatriots-balsamiq.pdf</a>
 - Color Scheme ~ <a href="../documentation/colorsheme.html">colorscheme.html</a>
 
 ## Features
