@@ -10,7 +10,7 @@
 }
 
 .container-fluid {
-    padding: 5%;
+    padding: 0 5% 5% 5%;
 }
 
 .content {
@@ -196,7 +196,7 @@ header {
 }
 
 .jumbotron {
-    padding: 8rem 2rem 2rem 2rem;
+    padding: 25% 5% 5% 5%;
     text-align: center;
 }
 
@@ -352,5 +352,7 @@ header {
 
 /*--------x-large devices---------*/
 @media (min-width: 1200px) {
-
+    .card-img {
+        max-height: 70%;
+    }
 }
