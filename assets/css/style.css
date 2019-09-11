@@ -298,7 +298,7 @@ header {
     background: #fafafa;
 }
 
-.modal-content:after {
+.modal-content::after {
     content: "";
     background: url("../images/brain-circuit-wallpaper.jpg");
     background-size: cover;
