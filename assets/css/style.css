@@ -196,7 +196,7 @@ header {
 }
 
 .jumbotron {
-    padding: 25% 5% 5% 5%;
+    padding: 30% 5% 5% 5%;
     text-align: center;
 }
 
@@ -374,22 +374,22 @@ header {
     .sticky-top {
         top: 10%;
     }
-        .footer-links {
+    .jumbotron {
+        padding: 20% 5% 5% 5%;
+    }
+    .footer-links {
         padding-left: 10%;
     }
-
     .footer-school-info {
         padding-right: 5%;
     }
-
     .footer-social-icons {
         vertical-align: middle;
     }
-
     .footer-school-info img {
         width: 35%;
         display: block;
-        margin-left: 40%;
+        margin-left: 65%;
         margin-right: auto;
     }
 }
@@ -399,16 +399,8 @@ header {
     .logo img {
         width: 15%;
     }
-
     .sticky-top {
         top: 10%;
-    }
-
-    footer-school-info img {
-        width: 35%;
-        display: block;
-        margin-left: 55%;
-        margin-right: auto;
     }
 }
 
@@ -416,12 +408,5 @@ header {
 @media (min-width: 1200px) {
     .card-img {
         max-height: 70%;
-    }
-
-    footer-school-info img {
-        width: 35%;
-        display: block;
-        margin-left: 75%;
-        margin-right: auto;
     }
 }
