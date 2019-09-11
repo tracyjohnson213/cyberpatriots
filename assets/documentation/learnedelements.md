@@ -6,8 +6,8 @@
 [x] button
 [x] link
 [x] table
-[] ordered list
-[] unordered list
+[x] ordered list
+[x] unordered list
 [x] media
 
 # CSS
@@ -34,7 +34,13 @@
 [x] fontawesome
 [x] transform
 [x] transition
+[ ] text-shadow
+[ ] box-shadow
+
 
 # Bootstrap4
 [x] grid
 [x] override styles
+
+[x] favicon
+[x] auto-prefixer
