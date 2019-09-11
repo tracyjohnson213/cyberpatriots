@@ -273,7 +273,7 @@ header {
     bottom: 10px;
     float: right;
     right: 18.5%;
-    left: 95%;
+    left: 90%;
     max-width: 30px;
     width: 100%;
     font-size: 12px;
@@ -376,6 +376,9 @@ header {
     }
     .jumbotron {
         padding: 20% 5% 5% 5%;
+    }
+    #btn-top {
+        left: 95%;
     }
     .footer-links {
         padding-left: 10%;
