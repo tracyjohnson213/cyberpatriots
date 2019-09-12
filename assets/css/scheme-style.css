@@ -1,0 +1,372 @@
+﻿/*-------------------Colors*/
+header {
+    background-color: #5ba56e;
+}
+
+.navbar-brand {
+    color: #5ba56e;
+}
+
+.nav-link {
+    background-color: #ed9b40;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    background-color: #5ba56e;
+    color: #241822;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #fafafa;
+}
+
+.column h2 {
+    color: #241822;
+}
+
+.meet-card-label {
+    color: #241822;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #5ba56e;
+    color: #fafafa;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: #36c2f3;
+    color: #fafafa;
+}
+
+.flip-card-back > .card-title {
+    color: #241822;
+}
+
+#footer {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#241822), to(#36c2f3));
+    background-image: -o-linear-gradient(top left, #241822, #36c2f3);
+    background-image: linear-gradient(to bottom right, #241822, #36c2f3);
+}
+
+#footer h5 {
+    color: #ffffff;
+}
+
+#footer a {
+    color: #fafafa;
+    background-color: transparent;
+}
+
+#footer ul.social li a, #footer ul.quick-links li a {
+    color: #fafafa;
+}
+
+#footer ul.social li a:hover {
+    color: #eeeeee;
+}
+
+#footer i {
+    color: #ed9b40;
+}
+
+/*-------------------Fonts*/
+body {
+    font-family: 'Domine', serif;
+}
+
+/*-------------------Header*/
+header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    padding: 5px 15px;
+}
+
+/*-------------------Section*/
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1 {
+    background-color: #36c2f3;
+    color: #fafafa;
+}
+
+.column1-text {
+    text-shadow: 2px 2px 8px #ED9B40;
+    color: #36c2f3;
+}
+
+.column1 .btn {
+    background-color: #ED9B40;
+    color: #241822;
+}
+
+.column1 .btn:hover {
+    background-color: #ED9B40;
+    color: #fafafa;
+}
+
+.column2 {
+    background-color: #fafafa;
+    color: #241822;
+}
+
+.column2-text {
+    text-shadow: 2px 2px 8px #36c2f3;
+    color: #36c2f3;
+}
+
+.column2 .btn {
+    background-color: #36c2f3;
+    color: #fafafa;
+}
+
+.column2 .btn:hover {
+    background-color: #36c2f3;
+    color: #241822;
+}
+
+.column3 {
+    background-color: #ED9B40;
+    color: #241822;
+}
+
+.column3 .btn {
+    background-color: #36c2f3;
+    color: #fafafa;
+}
+
+.column3 .btn:hover {
+    background-color: #36c2f3;
+    color: #241822;
+}
+
+.column4 {
+    background-color: #fafafa;
+    color: #241822;
+    border: 1px solid #241822;
+}
+
+.column4 .btn {
+    background-color: #ED9B40;
+    color: #241822;
+}
+
+.column4 .btn:hover {
+    background-color: #ED9B40;
+    color: #fafafa;
+}
+
+.column4-text {
+    text-shadow: 2px 2px 8px #5ba56e;
+    color: #36c2f3;
+}
+
+.column ::placeholder {
+    color:#5ba56e;
+}
+
+.jumbotron h2 {
+    color: #241822;
+}
+
+/*-------------------Meet Cards*/
+.meet-title {
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    max-height: 75%;
+    border-radius: 15px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    width: 300px;
+    height: 250px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
+    -o-transition: transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/* Flip the back side */
+.flip-card-back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.table {
+    background-color: #ed9b40;
+    color: #fafafa;
+}
+
+.table th {
+    color: #241822;
+}
+
+.table-title {
+    text-shadow: 2px 2px 8px #5ba56e;
+    color: #36c2f3;
+}
+
+.color-scheme h1,h2,h3,h4,h5 {
+    text-transform: capitalize;
+}
+
+.color-scheme .column {
+    width: 20%;
+}
+
+.column {
+    padding: 40% 5% 5% 5%;
+    text-align: center;
+}
+
+/*-------------------Footer*/
+/*-----------Footer Using https://bootsnipp.com/snippets/rlXdE*/
+#footer a {
+    text-decoration: none !important;
+}
+
+#footer h5 {
+    padding-left: 10px;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+#footer ul.social li {
+    padding: 3px 0;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+    font-size: 25px;
+    -webkit-transition: .5s all ease;
+    -o-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+#footer ul.quick-links li {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -o-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+    margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+#footer .row {
+    padding: 2%;
+}
+
+.footer-school-info img {
+    width: 15%;
+}
+
+/*https://youtu.be/HAUB4CRfOr0*/
+/*-------------------Media Queries*/
+/*--------medium devices---------*/
+@media (min-width: 768px) {
+    .column {
+        padding: 15% 5% 5% 5%;
+    }
+}
+
+/*--------large devices---------*/
+@media (min-width: 992px) {
+    .column {
+        padding: 10% 5% 5% 5%;
+    }
+}
+
+/*--------x-large devices---------*/
+@media (min-width: 1200px) {
+
+}

@@ -1,344 +1,179 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/scheme-style.css">
     <title>Color Scheme</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        /*--------------------------------Colors*/
-        
-        nav {
-            background-color: #5ba56e;
-        }
-
-        .column1 {
-            background-color: #36c2f3;
-            color: #fafafa;
-        }
-
-        .column2 {
-            background-color:#fafafa;
-            color:#241822;
-        }
-
-        .column1-text {
-            color: #ed9b40;
-        }
-
-        .column2-text {
-            color: #69409e;
-        }
-        
-        .btn {
-            background-color: #36c2f3;
-            color: #fafafa;
-        }
-
-        .btn-primary {
-            background-color: #ed9b40;
-        }
-
-        .btn-block {
-            background-color: #69409e;
-        }
-        
-        i {
-            color: #ed9b40;
-        }
-        
-        td {
-            color: #ed9b40;
-        }
-
-        th {
-            color: #36c2f3;
-        }
-        #footer {
-            background-image: linear-gradient(to right, #241822, #36c2f3);
-        }
-        
-        #footer h5 {
-            color: #ffffff;
-        }
-        
-        #footer a {
-            color: #ffffff;
-            text-decoration: none !important;
-            background-color: transparent;
-        }
-        
-        #footer ul.social li a,
-        #footer ul.quick-links li a {
-            color: #ffffff;
-        }
-        
-        #footer ul.social li a:hover {
-            color: #eeeeee;
-        }
-        
-        .card {
-            background-color: #ed9b40;
-        }
-        
-        .card-link {
-            color: #69409e;
-        }
-        
-        .card-title {
-            color: #1421a4;
-        }
-
-        h1,h2,h3,h4,h5 {
-            text-align: center;
-        }
-        /* Create three equal columns that floats next to each other */
-        
-        .column {
-            float: left;
-            width: 33.33%;
-            padding: 10px;
-        }
-        /* Clear floats after the columns */
-        
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-        
-        .column {
-            text-transform: uppercase;
-        }
-        
-        p {
-            text-transform: capitalize;
-        }
-        /*--------------------------------Footer Using Bootstrap 4 https://bootsnipp.com/snippets/rlXdE*/
-        
-        footer {
-            padding: 2%;
-        }
-        #footer h5 {
-            padding-left: 10px;
-            padding-bottom: 6px;
-            margin-bottom: 20px;
-        }
-        
-        #footer ul.social li {
-            padding: 3px 0;
-        }
-        
-        #footer ul.social li a i {
-            margin-right: 5px;
-            font-size: 25px;
-            -webkit-transition: .5s all ease;
-            -moz-transition: .5s all ease;
-            transition: .5s all ease;
-        }
-        
-        #footer ul.social li:hover a i {
-            font-size: 30px;
-            margin-top: -10px;
-        }
-        
-        #footer ul.quick-links li {
-            padding: 3px 0;
-            -webkit-transition: .5s all ease;
-            -moz-transition: .5s all ease;
-            transition: .5s all ease;
-        }
-        
-        #footer ul.quick-links li:hover {
-            padding: 3px 0;
-            margin-left: 5px;
-            font-weight: 700;
-        }
-        
-        #footer ul.quick-links li a i {
-            margin-right: 5px;
-        }
-        
-        #footer ul.quick-links li:hover a i {
-            font-weight: 700;
-        }
-        /*--------------------------------end of ~ Footer Using Bootstrap 4 https://bootsnipp.com/snippets/rlXdE*/
-        
-        .rounded {
-            height: 120px;
-        }
-
-        body {
-            font-family: 'Domine', serif;
-        }
-    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-        </ul>
-    </nav>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Cabrillo CyberPatriots</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <div class="container">
-        <div class="row">
-            <div class="column column1">
-                <h2 class="column1-text">Column 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos commodi mollitia dolores et autem alias vitae fugit explicabo sed nobis!</p>
-                <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
-            <div class="column column2">
-                <h2 class="column2-text" style="color: #69409e">Column 2</h2>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, voluptatibus?</p>
-                <img src="../images/cyberpatriot-button-logo-color.jpg" class="rounded mx-auto d-block" alt="cyberpatriot-button">
-                <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
-            </div>
-            <div class="column">
-                <div class="row">
-                    <div class="column" style="background-color:#fafafa; color: #69409e">#fafafa off white</div>
-                </div>
-                <div class="row">
-                    <div class="column" style="background-color:#69409e; color: #ed9b40">#69409e purple</div>
-                </div>
-                <div class="row">
-                    <div class="column" style="background-color:#36c2f3;">#36c2f3 blue</div>
-                </div>
-                <div class="row">
-                    <div class="column" style="background-color:#5ba56e;">#5ba56e green</div>
-                </div>
-                <div class="row">
-                    <div class="column" style="background-color:#ed9b40;">#ed9b40 carrot</div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column" style="background-color:#69409e; color: #fafafa">
-                <h1>Accents</h1>
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col"><button type="button" class="btn">First</button></th>
-                            <th scope="col"><button type="button" class="btn">Last</button></th>
-                            <th scope="col"><button type="button" class="btn">Handle</button></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="column" style="padding: 4%;">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../images/circuit-safari-wallpaper.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Learn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
                     </ul>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="column column1">
+                    <h2 class="column1-text">Column 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos commodi mollitia dolores et autem alias vitae fugit explicabo sed nobis!</p>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">Support Us</button>
+                </div>
+                <div class="column column2">
+                    <h2 class="column2-text">Column 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos commodi mollitia dolores et autem alias vitae fugit explicabo sed nobis!</p>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">Support Us</button>
+                </div>
+                <div class="column column3">
+                    <h2 class="column3-text">Column 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos commodi mollitia dolores et autem alias vitae fugit explicabo sed nobis!</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="column column4">
+                    <h2 class="column4-text">Column 4</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="jumbotron container">
+                <div class="row">
+                    <div class="col">
+                        <div class="flip-card card meet-student1-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img class="card-img" src="../images/student1.jpg" alt="Student 1">
+                                    <h5 class="card-title">Student 1</h5>
+                                    <small class="meet-card-label">Click for details...</small>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h5 class="card-title">Student 1</h5>
+                                    <p class="card-text">Student 1 is a high school junior, also enrolled in Long Beach City College's Cisco Networking Academy. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="../images/cabrillo-ca-jaguars-logo.png" style="width: 50%;">
+                    </div>
+                    <div class="row">
+                        <div class="col-12" style="padding-top: 30px;">
+                            <h2>Who are Cabrillo High School CyberPatriots?</h2>
+                            <p>
+                                Cabrillo High School CyberPatriots are a part of the National Youth Cyber Education Program created by the Air Force Association to inspire students toward careers in cybersecurity or other science, technology, engineering, and math disciplines critical
+                                to our nation's future.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="column">
-                <div class="row">
-                    <div class="column" style="background-color:#1421a4; color: #ed9b40">#1421a4 dark blue</div>
-                </div>
-                <div class="row">
-                    <div class="column" style="background-color:#69409e; color: #ed9b40">#69409e purple</div>
-                </div>
-                <div class="row">
-                    <div class="column" style="background-color:#36c2f3;">#36c2f3 blue</div>
-                </div>
-                <div class="row">
-                    <div class="column" style="background-color:#5ba56e;">#5ba56e green</div>
-                </div>
-                <div class="row">
-                    <div class="column" style="background-color:#241822; color: #fafafa">#241822 black</div>
+            <div class="row">
+                <div class="column col-12">
+                    <h2 class="table-title">Event Table</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Event</th>
+                                <th scope="col">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="badge badge-pill badge-event">Training</span><br />
+                                    <span class="badge badge-pill badge-event">September 14, 2019</span>
+                                </td>
+                                <td>
+                                    <div class="alert alert-event" role="alert">
+                                        Training at Long Beach City College. Images with answer keys available for new teams or refresher training.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="badge badge-pill badge-event">Practice</span><br />
+                                    <span class="badge badge-pill badge-event">October 5, 2019</span>
+                                </td>
+                                <td>
+                                    <div class="alert alert-event" role="alert">
+                                        Not scored.  Does not count toward placement.
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+            <div class="row color-scheme">
+                <div class="column" style="background-color:#241822; color: #fafafa;"><h5>#241822 black</h5></div>
+                <div class="column" style="background-color:#36c2f3; color: #fafafa;"><h4>#36c2f3 blue</h4></div>
+                <div class="column" style="background-color:#5ba56e; color: #fafafa;"><h3>#5ba56e green</h3></div>
+                <div class="column" style="background-color:#ed9b40; color: #241822;"><h2>#ed9b40 carrot</h2></div>
+                <div class="column" style="background-color:#fafafa; color: #241822;"><h1>#fafafa off white</h1></div>
+            </div>
         </div>
+</section>
 
-    </div>
-    <!--------------------------------Footer Using Bootstrap 4 https://bootsnipp.com/snippets/rlXdE-->
     <footer id="footer">
         <div class="row">
             <div class="footer-links col-12 text-center col-md-4 text-md-left">
                 <h5>Quick links</h5>
                 <ul class="list-unstyled quick-links">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="#">Get Started</a>
-                    </li>
-                    <li>
-                        <a href="#">Videos</a>
-                    </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#meet">Team</a></li>
+                    <li><a href="#learn">Learn</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact-modal" data-toggle="modal">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-social-icons col-12 text-sm-center col-md-4 text-md-right">
@@ -351,6 +186,7 @@
                 </ul>
             </div>
             <div class="footer-school-info col-12 text-sm-center col-md-4 text-md-right text-white text-center">
+                <img src="../images/cabrillo-ca-jaguars-logo.png">
                 <p><u><a href="https://lbcabrillo.schoolloop.com/" target="_blank">Cabrillo High School</a></u></p>
                 <p>2001 Santa Fe Ave</p>
                 <p>Long Beach, CA</p>
@@ -359,8 +195,10 @@
                 </p>
             </div>
         </div>
-
     </footer>
-</body>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
