@@ -1,15 +1,39 @@
+# To do items
+[x] Determine project purpose - user needs, site objective (strategy)
+[x] Research what other sites provide the same purpose (scope)
+[x] Decide file naming and specs (structure) 
+[x] Decide what will be included in content vs what can be included (structure)
+[x] Decide layout and create wireframe (skeleton)
+[x] Create site navigation (skeleton)
+[x] Select color scheme and typography (surface)
+[x] Decide exact site content and images to be used (surface)
+[x] Review if content is relavant to purpose (strategy)
+
+## Deliverables
+[] Storyboard - build empathy toward idea
+[] Competitive analysis - research of competition
+[] Site map - diagram of user app use and navigation
+[x] Wireframe - visiual guide of website elements
+[] Wireflow - combination of wireframe and flowcharts
+[] User flow - visual representation of user actions to complete tasks
+[] Prototype - simulation of final product
+
 # Feedback 9/11/2019 Sindhu Kolli
 
 [] link for Learn should match in context to title What is cybersecurity
-[] student cards should use differnt color than purple; not good contrast to green - maybe use shade from footer
+[] student cards should use different color than purple; not good contrast to green - maybe use shade from footer
 [] header logo not placed appealingly to navbar
-[] back to top button should be centered so that it is easier to find
+[] back to top button should be centered so that it is easier to find 
+-- https://www.nngroup.com/articles/back-to-top/ 
+-- Place a persistent Back to Top button in the lower right side of the page. 
+-- delaying the appearance of a Back to Top option until after users scroll a few pages AND indicate that they want to scroll up
+-- add scroll-behavior: smooth;
 [] quick links should be removed; duplicates effort of back to top button
 [] event table should be more consistent in color; maybe use 2 shades of green
 [] card image should be taller to be viewed as less compact on mobile; too much space after text
 [] increase width of video on large screen
 [] use two columns for news on large screen
-[] school logo in footer should have transparent background
+[x] school logo in footer should have transparent background
 [] compress images
 [] check load speed
 [] make font size within News text consistent for all viewports
@@ -18,6 +42,13 @@
 [] complete README.md using example
 [] verify completeness of wireframe
 [] improve colorscheme.html - include fonts
+-- https://looka.com/blog/logo-size-guidelines/
+-- logo variations: color on transparent background, white or color on color background, white on black background, black on transparent background
+-- favicon 16px x 16px, average logo 20-30px, max-height for desktop 100px
+-- use png
+-- A brand guidelines document outlines where and how a logo can be displayed, and at what file dimensions. The minimum logo dimensions for the web should not dip below 24px in height, and not be above half of the screen size.
+[] https://99designs.com/designer-resource-center/brand-guide
+[] implement and document testing
 [] decide if will include files/resources with more learning information
 [] add text-shadow, box-shadow
 [] remove hyphen from filenames
