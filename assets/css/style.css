@@ -239,6 +239,12 @@ header {
     padding: 45% 5% 5% 5%;
 }
 
+.logo-img {
+    width: 40%;
+    padding-bottom: 2%;
+    border-radius: 50px;
+}
+
 /*-------------------Meet Cards*/
 .meet-title {
     text-align: center;
@@ -456,6 +462,10 @@ header {
         padding: 20% 5% 5% 5%;
     }
 
+    .logo-img {
+        width: 30%;
+    }
+
     .card-img {
         max-height: 75%;
         min-height: 75%;
@@ -479,8 +489,8 @@ header {
         padding: 15% 5% 5% 5%;
     }
 
-    .card-img {
-        min-height: 75%;
+    .logo-img {
+        width: 20%;
     }
 
     .list-group {
@@ -503,6 +513,10 @@ header {
 @media (min-width: 1200px) {
     .jumbotron {
         padding: 10% 5% 5% 5%;
+    }
+
+    .logo-img {
+        width: 10%;
     }
 
     .navbar-collapse {
