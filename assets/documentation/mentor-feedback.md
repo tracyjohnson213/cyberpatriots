@@ -20,23 +20,23 @@
 
 # Feedback 9/11/2019 Sindhu Kolli
 
-[] link for Learn should match in context to title What is cybersecurity
-[] student cards should use different color than purple; not good contrast to green - maybe use shade from footer
+[x] link for Learn should match in context to title What is cybersecurity
+[x] student cards should use different color than purple; not good contrast to green - maybe use shade from footer
 [] header logo not placed appealingly to navbar
-[] back to top button should be centered so that it is easier to find 
+[x] back to top button should be centered so that it is easier to find 
 -- https://www.nngroup.com/articles/back-to-top/ 
 -- Place a persistent Back to Top button in the lower right side of the page. 
 -- delaying the appearance of a Back to Top option until after users scroll a few pages AND indicate that they want to scroll up
 -- add scroll-behavior: smooth;
-[] quick links should be removed; duplicates effort of back to top button
-[] event table should be more consistent in color; maybe use 2 shades of green
-[] card image should be taller to be viewed as less compact on mobile; too much space after text
+[x] quick links should be removed; duplicates effort of back to top button
+[x] event table should be more consistent in color; maybe use 2 shades of green
+[x] card image should be taller to be viewed as less compact on mobile; too much space after text
 [] increase width of video on large screen
 [] use two columns for news on large screen
 [x] school logo in footer should have transparent background
-[] compress images
+[x] compress images
 [] check load speed
-[] make font size within News text consistent for all viewports
+[x] make font size within News text consistent for all viewports
 
 # To do items
 [] complete README.md using example

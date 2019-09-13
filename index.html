@@ -16,27 +16,42 @@
 </head>
 <body>
     <header>
-        <a class="logo" href="#"><img src="assets/images/cyberpatriot-button-logo-color.jpg"></a>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Cabrillo CyberPatriots</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#meet">Team</a>
-                    <a class="nav-item nav-link" href="#learn">Learn</a>
-                    <a class="nav-item nav-link" href="#news">News</a>
-                    <a class="nav-item nav-link" href="#events">Events</a>
-                    <a class="nav-item nav-link" href="#contact-modal" data-toggle="modal">Contact</a>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Cabrillo CyberPatriots</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#meet">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#learn">Learn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#contact-modal" data-toggle="modal">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <section>
         <div class="container-fluid">
-            <div class="jumbotron" id="about">
+            <div class="jumbotron" id="#">
                 <h1 class="display-5 display-sm-4">Who are Cabrillo High School CyberPatriots?</h1>
                 <p class="lead">
                     Cabrillo High School CyberPatriots are a part of the National Youth Cyber Education Program created by the Air Force Association to inspire students toward careers in cybersecurity or other science, technology, engineering, and math disciplines critical
@@ -58,7 +73,7 @@
             <div id="meet" class="meet-cards mx-auto col-12 col-md-8">
                 <h1 class="meet-title">Meet our CyberPatriots!</h1>
                 <div class="row">
-                    <div class="flip-card card meet-student1-card col-6 col-lg-3">
+                    <div class="flip-card card meet-student1-card col-6 col-xl-3">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="card-img" src="assets/images/student1.jpg" alt="Student 1">
@@ -71,7 +86,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-card card meet-student2-card col-6 col-lg-3">
+                    <div class="flip-card card meet-student2-card col-6 col-xl-3">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="card-img" src="assets/images/student2.jpg" alt="Student 2">
@@ -84,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-card card meet-student1-card col-6 col-lg-3">
+                    <div class="flip-card card meet-student1-card col-6 col-xl-3">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="card-img" src="assets/images/student4.jpg" alt="Student 3">
@@ -97,7 +112,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flip-card card meet-student1-card col-6 col-lg-3">
+                    <div class="flip-card card meet-student1-card col-6 col-xl-3">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="card-img" src="assets/images/advisor1.jpg" alt="Advisor 1">
@@ -115,28 +130,24 @@
         </div>
 
         <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div id="learn" class="learn mx-auto col-12 col-md-8">
-                    <div class="row justify-content-center">
-                        <h1 class="learn-title mx-auto col-12 col-md-8">What is cybersecurity?</h1>
-                        <div class="video col-12 col-md-6 embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/sdpxddDzXfE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1 class="learn-title">Learn about cybersecurity</h1>
+            <div id="learn" class="row justify-content-center align-items-center learn">
+                        <div class="video col-sm-12 col-md-6 col-lg-6 embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sdpxddDzXfE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="learn-text col-12 col-md-6">
+                        <div class="learn-text col-sm-12 col-md-4 col-lg-4">
                             <p>The Internet is fundamentally insecure. However, there are simple things you can do to protect yourself and your information. Learn what they are in NOVA’s Cybersecurity Lab.</p>
-                        </div>
                     </div>
                 </div>
-            </div>
         </div>
 
         <div class="container-fluid">
+            <h1 class="news-title">CyberPatriots in the News</h1>
             <div id="news" class="row justify-content-center">
-                <h1 class="news-title">CyberPatriots in the News</h1>
-                <div class="news col-12 list-group">
+                <div class="news col-8 list-group">
                     <a href="https://www.afa.org/publications-news/news/2019-04-15/cyberpatriot-xi-national-finals-competition"
                        class="list-group-item list-group-item-action" target="_blank">
-                        <p>Winners Crowned at AFA’s CyberPatriot XI National Finals Competition</p>
+                        <h5>Winners Crowned at AFA’s CyberPatriot XI National Finals Competition</h5>
                         <small>Apr 15, 2019</small>
                         <small class="news-link">Click to view article....</small>
                     </a>
@@ -154,7 +165,7 @@
                     </a>
                     <a href="https://www.nbclosangeles.com/news/local/North-Hollywood-High-CyberPatriots-Cyber-Security-Champions-479179963.html"
                        class="list-group-item list-group-item-action" target="_blank">
-                        <p>North Hollywood High 'CyberPatriots' Aim to Defend Cyber Security Title</p>
+                        <h5>North Hollywood High 'CyberPatriots' Aim to Defend Cyber Security Title</h5>
                         <small>Apr 9, 2018</small>
                         <small class="news-link">Click to view article....</small>
                     </a>
@@ -163,11 +174,11 @@
         </div>
 
         <div class="container-fluid">
+            <h1 class="events-title">Events</h1>
             <div id="events" class="row mx-auto justify-content-center">
-                <div class="events col-12">
-                    <h1 class="events-title">Events</h1>
-                    <table class="table.responsive table-bordered">
-                        <thead class="thead-light">
+                <div class="events col-8">
+                    <table class="table table.responsive table-striped">
+                        <thead>
                             <tr>
                                 <th scope="col">Event</th>
                                 <th scope="col">Description</th>
@@ -175,10 +186,10 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row">
+                                <td>
                                     <span class="badge badge-pill badge-event">Training</span><br />
                                     <span class="badge badge-pill badge-event">September 14, 2019</span>
-                                </th>
+                                </td>
                                 <td>
                                     <div class="alert alert-event" role="alert">
                                         Training at Long Beach City College. Images with answer keys available for new teams or refresher training.
@@ -186,10 +197,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">
+                                <td>
                                     <span class="badge badge-pill badge-event">Practice</span><br />
                                     <span class="badge badge-pill badge-event">October 5, 2019</span>
-                                </th>
+                                </td>
                                 <td>
                                     <div class="alert alert-event" role="alert">
                                         Not scored.  Does not count toward placement.
@@ -197,10 +208,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">
+                                <td>
                                     <span class="badge badge-pill badge-event">Round 1 Competition</span><br />
                                     <span class="badge badge-pill badge-event">October 26, 2019</span>
-                                </th>
+                                </td>
                                 <td>
                                     <div class="alert alert-event" role="alert">
                                         Practice and Recruiting. Images and download instructions emailed to coaches and teams. All teams may compete.  Tests basic of cybersecurity skills.
@@ -208,10 +219,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">
+                                <td>
                                     <span class="badge badge-pill badge-event">Round 2 Competition</span><br />
                                     <span class="badge badge-pill badge-event">November 16, 2019</span>
-                                </th>
+                                </td>
                                 <td>
                                     <div class="alert alert-event" role="alert">
                                         Practice and Recruiting. Images and download instructions emailed to coaches and teams. All teams may compete even if they did not compete in Round 1. Allows teams to be divided into skill level tiers for the State Round.
@@ -219,10 +230,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">
+                                <td>
                                     <span class="badge badge-pill badge-event">State Round</span><br />
                                     <span class="badge badge-pill badge-event">December 7, 2019</span>
-                                </th>
+                                </td>
                                 <td>
                                     <div class="alert alert-event" role="alert">
                                         All teams may compete with clean slate. Teams compete against each other based on skill level for State and Tier Awards.
@@ -230,10 +241,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">
+                                <td>
                                     <span class="badge badge-pill badge-event">Semifinals</span><br />
                                     <span class="badge badge-pill badge-event">January 25, 2020</span>
-                                </th>
+                                </td>
                                 <td>
                                     <div class="alert alert-event" role="alert">
                                         Top teams compete for Tier Awards. Platinium Tier compete for advancement to National Final Competition.
@@ -241,10 +252,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">
+                                <td>
                                     <span class="badge badge-pill badge-event">National Final Competition</span><br />
                                     <span class="badge badge-pill badge-event">March 19-23, 2020</span>
-                                </th>
+                                </td>
                                 <td>
                                     <div class="alert alert-event" role="alert">
                                         National Final teams compete for National Championship in respective divisions.
@@ -260,17 +271,6 @@
 
     <footer id="footer">
         <div class="row">
-            <div class="footer-links col-12 text-center col-md-4 text-md-left">
-                <h5>Quick links</h5>
-                <ul class="list-unstyled quick-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#meet">Team</a></li>
-                    <li><a href="#learn">Learn</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#contact-modal" data-toggle="modal">Contact</a></li>
-                </ul>
-            </div>
             <div class="footer-social-icons col-12 text-sm-center col-md-4 text-md-right">
                 <ul class="list-unstyled list-inline social text-center">
                     <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>

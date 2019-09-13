@@ -1,70 +1,33 @@
-﻿html, body {
-    height: 100%;
-    margin: 0;
-}
-
-/*---to prevent page overflows*/
+﻿/*---to prevent page overflows*/
 .row, .container, .container-fluid {
     padding: 0;
     margin: 0;
 }
 
-.container-fluid {
-    padding: 0 5% 5% 5%;
-}
-
-.content {
-    padding: 20px;
-    min-height: 100%;
-    margin: 0 auto -50px;
-}
-
-.footer, .push {
-    height: 50px;
-}
-
 /*-------------------Colors*/
 header {
-    background: #5ba56e;
+    background-color: #5ba56e;
 }
 
-.organization-title {
-    color: #241822;
+.navbar-brand {
+    color: #5ba56e;
 }
 
-.jumbotron h1 {
-    color: #69409e;
-}
-
-.btn-outline-warning {
-    color: #ed9b40;
-    border-color: #ed9b40;
-}
-
-.btn-outline-warning:hover {
-    color: #241822;
-    border-color: #ed9b40;
+.nav-link {
     background-color: #ed9b40;
 }
 
-.btn-submit-contact {
-    color: #fafafa;
-    border-color: #ed9b40;
-    background-color: #ed9b40;
-}
-
-.btn-meet-card {
-    color: #fafafa;
-    border-color: #69409e;
-    background-color: #69409e;
-}
-
-.form-group.btn {
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    background-color: #5ba56e;
     color: #241822;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #fafafa;
 }
 
 .learn-title {
-    color: #69409e;
+    color: #241822;
 }
 
 .learn-text {
@@ -72,19 +35,30 @@ header {
 }
 
 .events-title {
-    color: #69409e;
-}
-
-.events-text {
     color: #241822;
 }
 
 .news-title {
-    color: #69409e;
+    color: #241822;
+}
+
+.list-group-item {
+    background-color: #36c2f3;
+    text-shadow: 2px 2px 8px #ED9B40;
+    color: #fafafa;
+}
+
+.list-group-item small {
+    color: #241822;
+    text-shadow: none;
+}
+
+.list-group-item .news-link {
+    color: #ed9b40;
 }
 
 .meet-title {
-    color: #69409e;
+    color: #241822;
 }
 
 .meet-card-label {
@@ -92,7 +66,13 @@ header {
 }
 
 .modal-title {
-    color: #69409e;
+    color: #241822;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -103,29 +83,26 @@ header {
 
 /* Style the back side */
 .flip-card-back {
-    background-color: #69409e;
+    background-color: #36c2f3;
     color: #fafafa;
-    font-style: italic;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
 }
 
 .flip-card-back > .card-title {
-    color: #ed9b40;
+    color: #241822;
 }
 
-.news-link {
-    color: #ed9b40;
+.modal .btn {
+    background-color: #ED9B40;
+    color: #241822;
 }
 
-.badge-event {
-    color: #69409e;
-    background-color: #d4edda;
+.modal .btn:hover {
+    background-color: #ED9B40;
+    color: #fafafa;
 }
 
-.alert-event {
-    color: #69409e;
-    background-color: #d4edda;
+.jumbotron h2 {
+    color: #241822;
 }
 
 #footer {
@@ -140,7 +117,6 @@ header {
 
 #footer a {
     color: #fafafa;
-    text-decoration: none !important;
     background-color: transparent;
 }
 
@@ -152,62 +128,59 @@ header {
     color: #eeeeee;
 }
 
-table {
-    background-color: #ed9b40;
-}
-
-i {
+#footer i {
     color: #ed9b40;
 }
 
 /*-------------------Fonts*/
-
 body {
     font-family: 'Domine', serif;
-}
-
-.organization-title {
-    font-size: 2rem;
 }
 
 /*-------------------Header*/
 header {
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1;
-}
-
-.logo img {
-    width: 20%;
-    height: auto;
-    margin: 2%;
-    float: left;
+    z-index: 10;
+    width: 100%;
 }
 
 .navbar {
-    margin-left: auto;
-    width: 75%;
-    text-align: center;
+    padding: 20px 0;
 }
 
-.organization-title {
-    text-align: right;
-    padding-right: 20%;
-    padding-top: 20%;
+.navbar-brand {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
 }
 
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    padding: 5px 15px;
+}
+
+/*-------------------Section*/
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*-------------------Jumbotron*/
 .jumbotron {
-    padding: 30% 5% 5% 5%;
     text-align: center;
+    padding: 45% 5% 5% 5%;
 }
-
-/*-------------------Learn*/
-.learn-title {
-    text-align: center;
-}
-
 
 /*-------------------Meet Cards*/
 .meet-title {
@@ -216,16 +189,14 @@ header {
 
 .card-img {
     width: 100%;
-    max-height: 40%;
+    min-height: 75%;
     border-radius: 15px;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-    background-color: transparent;
     width: 300px;
     height: 250px;
-    border: 1px solid #f1f1f1;
     -webkit-perspective: 1000px;
     perspective: 1000px;
 }
@@ -267,14 +238,78 @@ header {
     transform: rotateY(180deg);
 }
 
+/*-------------------Learn*/
+.learn-title {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.learn-text {
+    vertical-align: central;
+}
+
 /*-------------------News*/
 .news-title {
     text-align: center;
+    padding-top: 40px;
 }
 
 /*-------------------Events*/
 .events-title {
     text-align: center;
+    padding-top: 40px;
+}
+
+.table {
+    background-color: #ed9b40;
+    color: #fafafa;
+}
+
+.table th {
+    color: #241822;
+}
+
+.table-title {
+    text-shadow: 2px 2px 8px #5ba56e;
+    color: #36c2f3;
+}
+
+.color-scheme h1, h2, h3, h4, h5 {
+    text-transform: capitalize;
+}
+
+.color-scheme .column {
+    width: 20%;
+}
+
+.column {
+    padding: 40% 5% 5% 5%;
+    text-align: center;
+}
+
+/*-------------------Modal*/
+.modal-title {
+    text-align: center;
+}
+
+.modal-content {
+    position: relative;
+    z-index: 1;
+    background: #fafafa;
+}
+
+.modal-content::after {
+    content: "";
+    background: url("../images/brain-circuit-wallpaper.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    opacity: 0.2;
+    z-index: -1;
 }
 
 /*-------------------Back to Top Button*/
@@ -296,34 +331,12 @@ header {
     background-color: #7dbbf1;
 }
 
-/*-------------------Modal*/
-.modal-title {
-    text-align: center;
-}
-
-/*-------------------Background Image*/
-.modal-content {
-    position: relative;
-    z-index: 1;
-    background: #fafafa;
-}
-
-.modal-content::after {
-    content: "";
-    background: url("../images/brain-circuit-wallpaper.jpg");
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: block;
-    opacity: 0.2;
-    z-index: -1;
-}
-
 /*-------------------Footer*/
 /*-----------Footer Using https://bootsnipp.com/snippets/rlXdE*/
+#footer a {
+    text-decoration: none !important;
+}
+
 #footer h5 {
     padding-left: 10px;
     padding-bottom: 6px;
@@ -375,51 +388,41 @@ header {
 .footer-school-info img {
     width: 15%;
 }
+
+/*https://youtu.be/HAUB4CRfOr0*/
 /*-------------------Media Queries*/
 /*--------medium devices---------*/
 @media (min-width: 768px) {
-    .logo img {
-        width: 15%;
+    .column {
+        padding: 15% 5% 5% 5%;
     }
-    .sticky-top {
-        top: 10%;
-    }
+
     .jumbotron {
         padding: 20% 5% 5% 5%;
     }
-    #btn-top {
-        left: 95%;
-    }
-    .footer-links {
-        padding-left: 10%;
-    }
-    .footer-school-info {
-        padding-right: 5%;
-    }
-    .footer-social-icons {
-        vertical-align: middle;
-    }
-    .footer-school-info img {
-        width: 35%;
-        display: block;
-        margin-left: 65%;
-        margin-right: auto;
+
+    .card-img {
+        max-height: 75%;
+        min-height: 75%;
     }
 }
-
 /*--------large devices---------*/
 @media (min-width: 992px) {
-    .logo img {
-        width: 15%;
+    .column {
+        padding: 10% 5% 5% 5%;
     }
-    .sticky-top {
-        top: 10%;
+
+    .jumbotron {
+        padding: 15% 5% 5% 5%;
+    }
+
+    .card-img {
+        min-height: 75%;
     }
 }
-
 /*--------x-large devices---------*/
 @media (min-width: 1200px) {
-    .card-img {
-        max-height: 70%;
+    .jumbotron {
+        padding: 10% 5% 5% 5%;
     }
 }
