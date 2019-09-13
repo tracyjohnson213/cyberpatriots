@@ -46,9 +46,20 @@ header {
     color: #241822;
 }
 
+
+
+.list-group a {
+    text-align: center;
+}
+
 .list-group-item {
-    background-color: #36c2f3;
+    background-color: #fafafa;
     text-shadow: 2px 2px 8px #ED9B40;
+    color: #241822;
+}
+
+.list-group-item:hover {
+    background-color: #36c2f3;
     color: #fafafa;
 }
 
@@ -107,6 +118,29 @@ header {
 
 .jumbotron h2 {
     color: #241822;
+}
+
+.table {
+    background-color: #ed9b40;
+    color: #fafafa;
+}
+
+.table th {
+    color: #241822;
+}
+
+.table-title {
+    text-shadow: 2px 2px 8px #5ba56e;
+    color: #36c2f3;
+}
+
+.modal-content {
+    background: #fafafa;
+}
+
+/*On Hover Color Change*/
+#btn-top:hover {
+    background-color: #7dbbf1;
 }
 
 #footer {
@@ -264,33 +298,6 @@ header {
     padding-top: 40px;
 }
 
-.table {
-    background-color: #ed9b40;
-    color: #fafafa;
-}
-
-.table th {
-    color: #241822;
-}
-
-.table-title {
-    text-shadow: 2px 2px 8px #5ba56e;
-    color: #36c2f3;
-}
-
-.color-scheme h1, h2, h3, h4, h5 {
-    text-transform: capitalize;
-}
-
-.color-scheme .column {
-    width: 20%;
-}
-
-.column {
-    padding: 40% 5% 5% 5%;
-    text-align: center;
-}
-
 /*-------------------Modal*/
 .modal-title {
     text-align: center;
@@ -299,7 +306,6 @@ header {
 .modal-content {
     position: relative;
     z-index: 1;
-    background: #fafafa;
 }
 
 .modal-content::after {
@@ -328,11 +334,6 @@ header {
     font-size: 12px;
     padding: .5px;
     border-radius: 4px;
-}
-
-/*On Hover Color Change*/
-#btn-top:hover {
-    background-color: #7dbbf1;
 }
 
 /*-------------------Footer*/
@@ -410,6 +411,7 @@ header {
         min-height: 75%;
     }
 }
+
 /*--------large devices---------*/
 @media (min-width: 992px) {
     .column {
@@ -423,7 +425,16 @@ header {
     .card-img {
         min-height: 75%;
     }
+
+    .list-group {
+        flex-direction: row;
+    }
+
+    .list-group a {
+        border-radius: 20px;
+    }
 }
+
 /*--------x-large devices---------*/
 @media (min-width: 1200px) {
     .jumbotron {
