@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*-------------------Colors*/
 header {
     background-color: #5ba56e;
