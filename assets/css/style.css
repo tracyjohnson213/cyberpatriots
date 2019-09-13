@@ -286,6 +286,25 @@ header {
     vertical-align: central;
 }
 
+#news {
+    position: relative;
+    z-index: 1;
+}
+
+#news::after {
+    content: "";
+    background: url("../images/circuit-safari-wallpaper.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    height: 100%;
+    width: 90%;
+    display: block;
+    opacity: 0.2;
+    z-index: -1;
+}
+
 /*-------------------News*/
 .news-title {
     text-align: center;
@@ -410,6 +429,13 @@ header {
         max-height: 75%;
         min-height: 75%;
     }
+
+    #news::after {
+        top: 5%;
+        left: 5%;
+        height: 100%;
+        width: 90%;
+    }
 }
 
 /*--------large devices---------*/
@@ -432,6 +458,13 @@ header {
 
     .list-group a {
         border-radius: 20px;
+    }
+
+    #news::after {
+        top: 10%;
+        left: 5%;
+        height: 100%;
+        width: 90%;
     }
 }
 
