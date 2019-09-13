@@ -65,7 +65,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - <a href="https://docs.seleniumhq.org/">SeleniumHQ</a> ~ Browser automation tool.
 - <a href="https://stackedit.io/">StackEdit</a> ~ In browser Markdown editor.
 - <a href="https://www.favicon.cc/?">Favicon.cc</a> ~ Favicon generator.
-- <a href="https://autoprefixer.github.io/">Autoprefixer CSS online</a> ~ Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes
+- <a href="https://autoprefixer.github.io/">Autoprefixer CSS online</a> ~ Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes.
+- <a href="https://www.pinclipart.com/downpngs/TwJm_jaguar-mascot-clipart-logo-jacksonville-jaguars-png-download/"> Pinclipart</a> ~ Clipart.
 
 ## Testing
 
