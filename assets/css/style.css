@@ -111,19 +111,19 @@ header {
     color: #fafafa;
 }
 
-    .flip-card-back > .card-title {
-        color: #241822;
-    }
+.flip-card-back > .card-title {
+    color: #241822;
+}
 
 .modal .btn {
     background-color: #ED9B40;
     color: #241822;
 }
 
-    .modal .btn:hover {
-        background-color: #ED9B40;
-        color: #fafafa;
-    }
+.modal .btn:hover {
+    background-color: #ED9B40;
+    color: #fafafa;
+}
 
 .jumbotron h2 {
     color: #241822;
@@ -258,14 +258,15 @@ header {
 
 .card-img {
     width: 100%;
-    min-height: 75%;
+    min-height: 80%;
+    max-height: 80%;
     border-radius: 15px;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     width: 300px;
-    height: 250px;
+    height: 450px;
     -webkit-perspective: 1000px;
     perspective: 1000px;
 }
@@ -307,6 +308,10 @@ header {
     transform: rotateY(180deg);
 }
 
+.flip-card-back .card-title {
+    margin-top: 1.50rem;
+}
+
 /*-------------------Learn*/
 .learn-title {
     text-align: center;
@@ -322,19 +327,19 @@ header {
     z-index: 1;
 }
 
-    #news::after {
-        content: "";
-        background: url("../images/circuit-safari-wallpaper.jpg");
-        background-size: cover;
-        position: absolute;
-        top: 2%;
-        left: 5%;
-        height: 100%;
-        width: 90%;
-        display: block;
-        opacity: 0.2;
-        z-index: -1;
-    }
+#news::after {
+    content: "";
+    background: url("../images/circuit-safari-wallpaper.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    height: 100%;
+    width: 90%;
+    display: block;
+    opacity: 0.2;
+    z-index: -1;
+}
 
 /*-------------------News*/
 .news-title {
@@ -364,19 +369,19 @@ header {
     z-index: 1;
 }
 
-    .modal-content::after {
-        content: "";
-        background: url("../images/brain-circuit-wallpaper.jpg");
-        background-size: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        display: block;
-        opacity: 0.2;
-        z-index: -1;
-    }
+.modal-content::after {
+    content: "";
+    background: url("../images/brain-circuit-wallpaper.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    opacity: 0.2;
+    z-index: -1;
+}
 
 /*-------------------Back to Top Button*/
 #btn-top {
@@ -477,6 +482,10 @@ header {
     .card-img {
         max-height: 75%;
         min-height: 75%;
+    }
+
+    .flip-card {
+        height: 250px;
     }
 
     #news::after {
