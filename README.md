@@ -1,7 +1,7 @@
 
-# <a href="https://tracyjohnson213.github.io/cyberpatriots/">Cabrillo High School CyberPatriots <a>
+# [Cabrillo High School CyberPatriots](https://tracyjohnson213.github.io/cyberpatriots/)
 
-<a href="https://tracyjohnson213.github.io/cyberpatriots/">https://tracyjohnson213.github.io/cyberpatriots/</a>
+[https://tracyjohnson213.github.io/cyberpatriots/](https://tracyjohnson213.github.io/cyberpatriots/)
 
 Cabrillo High School CyberPatriots are a part of the National Youth Cyber Education Program created by the Air Force Association to inspire students toward careers in cybersecurity or other science, technology, engineering, and math disciplines critical to our nation's future.
 
@@ -57,20 +57,19 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - HTML ~ main Language used to structure the individual pages of the website.
 - CSS ~ styling language used to format and visually build upon the accompanying HTML.
-- <a href="https://getbootstrap.com/"> Bootstrap Framework</a> ~ Used as the core structuring layout building blocks of the website, ensuring mobile-frist design and responsive size display.
-- <a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2019</a> ~ Full-featured integrated development environment (IDE) for Android, iOS, Windows, web, and cloud.
-- <a href="https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint">stylelint</a> ~ A Visual Studio Code extension to lint CSS/SCSS/Less with stylelint.
-- <a href="https://specflow.org/getting-started/">Specflow</a> ~ Story mapping tool.
-- <a href="https://balsamiq.com/">Balsamiq Mockups 3</a> ~ Wireframing tool.
-- <a href="http://colormind.io/bootstrap/#">Colormind Bootstrap UI Themes</a> ~ Generate color schemes.
+- [Bootstrap Framework](https://getbootstrap.com/) ~ Used as the core structuring layout building blocks of the website, ensuring mobile-frist design and responsive size display.
+- [Visual Studio 2019](https://visualstudio.microsoft.com/vs/) ~ Full-featured integrated development environment (IDE) for Android, iOS, Windows, web, and cloud.
+- [Specflow](https://specflow.org/getting-started/) ~ Story mapping tool.
+- [Balsamiq Mockups 3](https://balsamiq.com/) ~ Wireframing tool.
+- [Colormind Bootstrap UI Themes](http://colormind.io/bootstrap/#) ~ Generate color schemes.
 - Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
-- <a href="https://docs.seleniumhq.org/">SeleniumHQ</a> ~ Browser automation tool.
-- <a href="https://stackedit.io/">StackEdit</a> ~ In browser Markdown editor.
-- <a href="https://www.favicon.cc/?">Favicon.cc</a> ~ Favicon generator.
-- <a href="https://autoprefixer.github.io/">Autoprefixer CSS online</a> ~ Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes.
-- <a href="https://www.pinclipart.com/downpngs/TwJm_jaguar-mascot-clipart-logo-jacksonville-jaguars-png-download/"> Pinclipart</a> ~ Clipart.
-- <a href="https://tinyjpg.com/">TinyJPG</a> ~ Image Compression.
-
+- [StackEdit](https://stackedit.io/) ~ In browser Markdown editor.
+- [Favicon.cc](https://www.favicon.cc/?) ~ Favicon generator.
+- [Autoprefixer CSS online](https://autoprefixer.github.io/) ~ Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes.
+- [Pinclipart](https://www.pinclipart.com/downpngs/TwJm_jaguar-mascot-clipart-logo-jacksonville-jaguars-png-download/) ~ Clipart.
+- [TinyJPG](https://tinyjpg.com/) ~ Image Compression.
+- [W3.CSS Validation](https://www.w3schools.com/w3css/w3css_validation.asp) ~ The W3C CSS Validation Service can be used to check the correctness (validity) of W3.CSS.
+- [W3C Markup Validation](https://validator.w3.org/) ~ This validator checks the markup validity of Web documents in HTML.
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -90,6 +89,33 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+HTML Validation resulted in fixes:
+- remove of duplicate id="top"
+- add alt to img
+- add semicolon to copyright
+- remove duplicate id="email"
+- correct aria-labeledby in modal
+
+Autoprefixer resulted in addition of: 
+- -webkit-box
+- -ms-flexbox
+- -webkit-box-pack
+- -o-linear-gradient(top left,#241822,#36c2f3)
+- -webkit-gradient(linear,left top,right bottom,from(#241822),to(#36c2f3))
+- -webkit-perspective
+- -webkit-transition
+- -webkit-transform 0.8s
+- -o-transition
+- transform 0.8s,-webkit-transform 0.8s
+- -webkit-transform-style
+- -webkit-transform
+- -webkit-backface-visibility
+- -webkit-box-orient
+- -webkit-box-direction
+- -ms-flex-direction 
+
+CSS Validator shows 26 Warnings related to unknown vendor extension as listed above as included by the AutoPrefixer.
 
 ## Deployment
 
@@ -118,7 +144,7 @@ Navigated to "Settings" and to the "Github Pages" Section.
 From the "Source" section, clicked on the dropdown and selected "Master Branch" from the associated List.
 Once "Master Branch" was selected, the page auto-refreshed, with a ribbon display detailing "Github Pages source saved" indicating the success of the deployment.
 The link to the website was found under the "Github Pages" section, with a ribbon notification stating:
-"Your site is published at <a href="https://tracyjohnson213.github.io/cyberPatriots/"
+"Your site is published at <a href="https://tracyjohnson213.github.io/cyberPatriots/">
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
@@ -126,15 +152,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for section Y was copied from the [Air Force Associations'CyberPatriot - The National Youth Cyber Education Program](https://www.uscyberpatriot.org/Pages/About/What-is-CyberPatriot.aspx)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Google Images and [Air Force Associations'CyberPatriot - The National Youth Cyber Education Program](https://www.uscyberpatriot.org/Pages/About/What-is-CyberPatriot.aspx).
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
-
+- I received inspiration for this project from my daughter who is a high school junior interested in becoming a CyberPatriot at her school but is too busy!
+- I also received inspiration for this project from the project example presented by my User Centric Frontend Development Lead, Anthony O' Brien [User Centric Resource Pack](https://auxfuse.github.io/userCentricResourcePack/)
 To Code Institute for offering the learning opportunity as a Full Stack Development Student.  Thanks to my User Centric Frontend Development Lead, Anthony O' Brien, 
 my mentor Sindhu Kolli for project guidence and support.
 
@@ -149,4 +175,5 @@ This project was created for educational purposes to meet the requirements of th
 - Git/GitHub
 - Wireframing
 - README file
+
 Copyright © Tracy Johnson & Code Institute 2019
