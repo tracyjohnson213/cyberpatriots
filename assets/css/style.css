@@ -485,7 +485,7 @@ header {
     }
 
     .flip-card {
-        height: 250px;
+        height: 300px;
     }
 
     #news::after {
@@ -500,6 +500,10 @@ header {
 @media (min-width: 992px) {
     .column {
         padding: 10% 5% 5% 5%;
+    }
+
+    .navbar {
+        margin-left: 10%;
     }
 
     .jumbotron {
@@ -531,15 +535,19 @@ header {
 
 /*--------x-large devices---------*/
 @media (min-width: 1200px) {
+    .navbar {
+        margin-left: 20%;
+    }
+
+    .navbar-collapse {
+        padding-left: 30%;
+    }
+
     .jumbotron {
         padding: 10% 5% 5% 5%;
     }
 
     .logo-img {
         width: 10%;
-    }
-
-    .navbar-collapse {
-        padding-left: 30%;
     }
 }
