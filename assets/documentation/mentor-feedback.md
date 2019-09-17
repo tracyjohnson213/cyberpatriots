@@ -22,7 +22,7 @@
 
 [x] link for Learn should match in context to title What is cybersecurity
 [x] student cards should use different color than purple; not good contrast to green - maybe use shade from footer
-[] header logo not placed appealingly to navbar
+[x] header logo not placed appealingly to navbar
 [x] back to top button should be centered so that it is easier to find 
 -- https://www.nngroup.com/articles/back-to-top/ 
 -- Place a persistent Back to Top button in the lower right side of the page. 
@@ -31,7 +31,7 @@
 [x] quick links should be removed; duplicates effort of back to top button
 [x] event table should be more consistent in color; maybe use 2 shades of green
 [x] card image should be taller to be viewed as less compact on mobile; too much space after text
-[] increase width of video on large screen
+[x] increase width of video on large screen
 [] use two columns for news on large screen
 [x] school logo in footer should have transparent background
 [x] compress images
@@ -50,7 +50,7 @@
 [] https://99designs.com/designer-resource-center/brand-guide
 [] implement and document testing
 [] decide if will include files/resources with more learning information
-[] add text-shadow, box-shadow
+[x] add text-shadow, box-shadow
 [] remove hyphen from filenames
 [x] verify auto-prefixers are used when needed
 [] remove all commented codes in index.html and style.css
