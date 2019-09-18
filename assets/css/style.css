@@ -13,6 +13,7 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -moz-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
 }
@@ -165,7 +166,7 @@ color: #241822;
 
 /*On Hover Color Change*/
 
-#btn-top:hover {
+.btn-top:hover {
     background-color: #7dbbf1;
 }
 
@@ -219,6 +220,7 @@ header {
 .navbar {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
+    -moz-box-pack: center;
     justify-content: center;
 }
 
@@ -310,10 +312,11 @@ header {
     height: 100%;
     text-align: center;
     -webkit-transition: -webkit-transform 0.8s;
+    -moz-transition: -webkit-transform 0.8s;
     transition: -webkit-transform 0.8s;
     -o-transition: transform 0.8s;
     transition: transform 0.8s;
-    transition: transform 0.8s, -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
@@ -324,6 +327,9 @@ header {
 .flip-card:hover .flip-card-inner {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
 }
 
 
@@ -400,6 +406,7 @@ header {
 
 .events-table {
     -webkit-box-pack: center;
+    -moz-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
 }
@@ -433,7 +440,7 @@ header {
 
 /*-------------------Back to Top Button*/
 
-#btn-top {
+.btn-top {
     position: fixed;
     bottom: 10px;
     float: right;
@@ -470,6 +477,7 @@ header {
     margin-right: 5px;
     font-size: 25px;
     -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
 }
@@ -560,7 +568,9 @@ header {
 
     .list-group {
         -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
         -webkit-box-direction: normal;
+        -moz-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
     }

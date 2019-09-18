@@ -54,7 +54,7 @@
 [] remove hyphen from filenames
 [x] verify auto-prefixers are used when needed
 [] remove all commented codes in index.html and style.css
-[] change <div>s to semantic html
-[] validate html
-[] validate css
+[x] change <div>s to semantic html
+[x] validate html
+[x] validate css
 [] Post your project in #peer-code-review for feedback

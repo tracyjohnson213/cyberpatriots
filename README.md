@@ -11,7 +11,7 @@ Essentially, this part is your sales pitch.
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The color scheme was selected to mimic the Cabrillo High School colors Green, White, and Gold.
 
 ### User Stories
 - As a site owner, I want to solicit requests for information to join the CyberPatriot Club in order to increase membership.
@@ -31,25 +31,27 @@ Use this section to provide insight into your UX process, focusing on who this w
 ### Acceptance Criteria
 
 ### Documetation
-- Wireframe ~ 
-- Mockup ~ <a href="../documentation/cyberpatriots-balsamiq.bmpr">cyberpatriots-balsamiq.bmpr</a>
-- Mockup ~ <a href="../documentation/cyberpatriots-balsamiq.pdf">cyberpatriots-balsamiq.pdf</a>
+- Wireframe Mockup ~ <a href="../documentation/cyberpatriots-balsamiq.bmpr">cyberpatriots-balsamiq.bmpr</a>
+- Wireframe Mockup ~ <a href="../documentation/cyberpatriots-balsamiq.pdf">cyberpatriots-balsamiq.pdf</a>
 - Color Scheme ~ <a href="../documentation/colorsheme.html">colorscheme.html</a>
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- About - allow user to read introduction statement of purpose for CyberPatriot team
+- Meet - allow user to view information on members to allow networking
+- Learn - allow user to view video describing basic description of cybersecurity
+- News - allow user to view news article about other groups with same goals
+- Events - allow user to view listing of events to be attended by the CyberPatriot team
+- Contact - allow user to contact CyberPatriot team for additional information
 
 ### Features Left to Implement
-- Another feature idea
+- Implement contact modal connection to email service
+- Connect to additional tutorial videos on subjects related to cybersecurity
+- List additional resources to learn about cybersecurity
+- List information on cybersecurity careers
+- Pull latest articles on CyberPatriot groups
+- Offer newsletter to subscribers to update on current team activities
 
 ## Technologies Used
 
@@ -59,7 +61,6 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - CSS ~ styling language used to format and visually build upon the accompanying HTML.
 - [Bootstrap Framework](https://getbootstrap.com/) ~ Used as the core structuring layout building blocks of the website, ensuring mobile-frist design and responsive size display.
 - [Visual Studio 2019](https://visualstudio.microsoft.com/vs/) ~ Full-featured integrated development environment (IDE) for Android, iOS, Windows, web, and cloud.
-- [Specflow](https://specflow.org/getting-started/) ~ Story mapping tool.
 - [Balsamiq Mockups 3](https://balsamiq.com/) ~ Wireframing tool.
 - [Colormind Bootstrap UI Themes](http://colormind.io/bootstrap/#) ~ Generate color schemes.
 - Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
@@ -70,25 +71,31 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [TinyJPG](https://tinyjpg.com/) ~ Image Compression.
 - [W3.CSS Validation](https://www.w3schools.com/w3css/w3css_validation.asp) ~ The W3C CSS Validation Service can be used to check the correctness (validity) of W3.CSS.
 - [W3C Markup Validation](https://validator.w3.org/) ~ This validator checks the markup validity of Web documents in HTML.
+- [Tidy Gherkin](https://chrome.google.com/webstore/detail/tidy-gherkin/nobemmencanophcnicjhfhnjiimegjeo?hl=en-GB) ~ Chrome app for writing feature files.
+- [Small SEO Tools](https://smallseotools.com/plagiarism-checker/) ~ Plagiarism and Grammar Checker.
+- [BrowserStack](https://www.browserstack.com/screenshots) ~ App & Cross Browser Testing Platform.
+
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Automation testing was planned but not implemented for this project.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Feature descriptions are included in [documentation/contact.feature](documentation/contact.feature)
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+In addition screenshots were created with [BrowserStack](https://www.browserstack.com/screenshots) and added to documentation/*.jpg. 
+Screenshots were produced for:
+- Nexus 6
+- Galaxy S7
+- Safari 8
+- Chrome 69
+- Edge 18
+- Firefox 53
+- IE11
+Among the screenshots are results showing issues rendering in safari 8 and ie11.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Manual testing was perfromed on:
+- xl monitor with resolution > 1200px
+- Ipad mini 4, laptop with resolution > 992px
+-  moto e4 with resolution > 768px
 
 HTML Validation resulted in fixes:
 - remove of duplicate id="top"
@@ -116,6 +123,9 @@ Autoprefixer resulted in addition of:
 - -ms-flex-direction 
 
 CSS Validator shows 26 Warnings related to unknown vendor extension as listed above as included by the AutoPrefixer.
+
+[CodeBeautify](https://codebeautify.org/cssvalidate) list additional items:
+- 
 
 ## Deployment
 
@@ -145,9 +155,6 @@ From the "Source" section, clicked on the dropdown and selected "Master Branch" 
 Once "Master Branch" was selected, the page auto-refreshed, with a ribbon display detailing "Github Pages source saved" indicating the success of the deployment.
 The link to the website was found under the "Github Pages" section, with a ribbon notification stating:
 "Your site is published at <a href="https://tracyjohnson213.github.io/cyberPatriots/">
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
 
 ## Credits
 
