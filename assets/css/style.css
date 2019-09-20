@@ -46,6 +46,17 @@ header {
     color: #fafafa;
 }
 
+.btn-support {
+    background-color: #ed9b40;
+    color: #fafafa;
+}
+
+.btn-support:hover {
+    border-color: #ed9b40;
+    background-color: #fafafa;
+    color: #ed9b40;
+}
+
 .learn-title {
     color: #241822;
 }
