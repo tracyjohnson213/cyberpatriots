@@ -30,7 +30,7 @@ The color scheme was selected to mimic the Cabrillo High School colors Green, Wh
 
 ### Acceptance Criteria
 
-### Documetation
+### Documentation
 - Wireframe Mockup ~ <a href="../documentation/cyberpatriots-balsamiq.bmpr">cyberpatriots-balsamiq.bmpr</a>
 - Wireframe Mockup ~ <a href="../documentation/cyberpatriots-balsamiq.pdf">cyberpatriots-balsamiq.pdf</a>
 - Color Scheme ~ <a href="../documentation/colorsheme.html">colorscheme.html</a>
