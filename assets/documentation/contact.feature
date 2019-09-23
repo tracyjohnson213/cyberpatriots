@@ -1,7 +1,9 @@
+Feature: Contact
+  
   Scenario Outline: Contact CyberPatriots
-    Given User is on landing page
-     When User clicks $<button>
-     Then System displays Contact Modal
+	Given User is on landing page
+    When User clicks $<button>
+    Then System displays Contact Modal
 
   Example: 
   | button |
@@ -9,20 +11,20 @@
   | Contact |
   | Navigation toggle and Contact |
   
-    Scenario Outline: Required fields of Contact Modal
+  Scenario Outline: Required fields of Contact Modal
     Given System displays Contact Modal
-     When User clicks $<button>
-     Then System displays Please fill out this field
+    When User clicks $<button>
+    Then System displays Please fill out this field
      
-     Example: 
+	Example: 
   | button |
   | Submit |
 
   Scenario Outline: Required email of Contact Modal
-    Given System displays Contact Modal
-    And User input $<name>
-     When User clicks Submit
-     Then System displays Please fill out this field with $<email>
+	Given System displays Contact Modal
+	And User input $<name>
+    When User clicks Submit
+    Then System displays Please fill out this field with $<email>
 
 	Example: 
   | name | email |
@@ -32,8 +34,8 @@
     Given System displays Contact Modal
     And User input $<name>
     And User input $<email>
-     When User clicks Submit
-     Then System displays Please include an '@' in the email address, '<$email>' is missing as '@'
+    When User clicks Submit
+    Then System displays Please include an '@' in the email address, '<$email>' is missing as '@'
 
 	Example: 
   | name | email |
@@ -43,8 +45,8 @@
     Given System displays Contact Modal
     And User input $<name>
     And User input $<email>
-     When User clicks Submit
-     Then System displays Please fill out this field with $<comment>
+    When User clicks Submit
+    Then System displays Please fill out this field with $<comment>
   
   | name | email | comment |
   | name | valid email | Lorem10 |
