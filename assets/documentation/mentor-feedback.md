@@ -43,19 +43,19 @@
 [x] select logo image with transparent background
 [x] consider change of navbar background from green
 [x] make color of action button more defined
-[ ] update text of student cards to not be generic
-[ ] move text of video to below
+[x] update text of student cards to not be generic
+[x] move text of video to below
 [x] replace favicon to match latest school logo
-[ ] on mobile view consider if header font is too large
-[ ] on mobile view consider if schoool logo is too small
+[x] on mobile view consider if header font is too large
+[x] on mobile view consider if schoool logo is too small
 [x] add link to a social media
 [x] add padding to navbar
 [ ] find reason for padding update on page load with navbar
 
 # To do items
-[] complete README.md using example
+[x] complete README.md using example
 [] verify completeness of wireframe
-[] improve colorscheme.html - include fonts
+[x] improve colorscheme.html - include fonts
 -- https://looka.com/blog/logo-size-guidelines/
 -- logo variations: color on transparent background, white or color on color background, white on black background, black on transparent background
 -- favicon 16px x 16px, average logo 20-30px, max-height for desktop 100px
