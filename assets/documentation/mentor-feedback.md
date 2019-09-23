@@ -38,6 +38,20 @@
 [] check load speed
 [x] make font size within News text consistent for all viewports
 
+# Feedback 9/20/2019 Sindhu Kolli
+
+[x] select logo image with transparent background
+[x] consider change of navbar background from green
+[x] make color of action button more defined
+[ ] update text of student cards to not be generic
+[ ] move text of video to below
+[x] replace favicon to match latest school logo
+[ ] on mobile view consider if header font is too large
+[ ] on mobile view consider if schoool logo is too small
+[x] add link to a social media
+[x] add padding to navbar
+[ ] find reason for padding update on page load with navbar
+
 # To do items
 [] complete README.md using example
 [] verify completeness of wireframe
