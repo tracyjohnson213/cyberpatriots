@@ -465,8 +465,6 @@ header {
 
 
 /*-------------------Footer*/
-
-
 /*-----------Footer Using https://bootsnipp.com/snippets/rlXdE*/
 
 #footer a {
@@ -510,9 +508,16 @@ header {
 
 
 /*-------------------Media Queries*/
-
-
 /*--------medium devices---------*/
+/*--------changes based on viewport include column padding, 
+    control of display of organization title,
+    padding on jumbotron,
+    size of cyberpatriot logo,
+    width of student card images,
+    spacing with news badges,
+    width of logo image in footer,
+    visibility of close button on modal
+*/
 
 @media (min-width: 768px) {
     .column {
@@ -562,7 +567,16 @@ header {
 
 
 /*--------large devices---------*/
-
+/*--------changes based on viewport include column padding, 
+    control of display of organization title,
+    change in navigation bar size,
+    padding on jumbotron,
+    size of cyberpatriot logo,
+    width of student card images,
+    spacing and display of news list items,
+    width of logo image in footer,
+    visibility of close button on modal
+*/
 @media (min-width: 992px) {
     .column {
         padding: 10% 5% 5% 5%;
@@ -607,7 +621,16 @@ header {
 
 
 /*--------x-large devices---------*/
-
+/*--------changes based on viewport include column padding, 
+    control of display of organization title,
+    change in navigation bar size,
+    padding on jumbotron,
+    size of cyberpatriot logo,
+    width of student card images,
+    spacing and display of news list items,
+    width of logo image in footer,
+    visibility of close button on modal
+*/
 @media (min-width: 1200px) {
     .navbar {
         margin-left: 20%;
