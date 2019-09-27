@@ -421,6 +421,16 @@ header {
     justify-content: center;
 }
 
+.table {
+    width: 100%;
+}
+
+.table > tbody > tr td {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
 
 /*-------------------Modal*/
 
@@ -555,7 +565,7 @@ header {
         height: 100%;
         width: 90%;
     }
-
+    
     .footer-school-info img {
         width: 15%;
     }
